@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+title: The Kernelized Taylor Diagram
+message: >-
+  If you use this software, please cite both the software and the paper
+  below.
+type: software
+authors:
+  - given-names: Kristoffer
+    family-names: Wickstrøm
+  - given-names: J. Emmanuel
+    family-names: Johnson
+  - given-names: Sigurd
+    family-names: Løkse
+  - given-names: Gustau
+    family-names: Camps-Valls
+  - given-names: Karl Øyvind
+    family-names: Mikalsen
+  - given-names: Michael
+    family-names: Kampffmeyer
+  - given-names: Robert
+    family-names: Jenssen
+repository-code: "https://github.com/Wickstrom/KernelizedTaylorDiagram"
+license: MIT
+version: 0.1.0
+date-released: "2026-09-09"
+preferred-citation:
+  title: The Kernelized Taylor Diagram
+  type: article
+  authors:
+    - given-names: Kristoffer
+      family-names: Wickstrøm
+    - given-names: J. Emmanuel
+      family-names: Johnson
+    - given-names: Sigurd
+      family-names: Løkse
+    - given-names: Gustau
+      family-names: Camps-Valls
+    - given-names: Karl Øyvind
+      family-names: Mikalsen
+    - given-names: Michael
+      family-names: Kampffmeyer
+    - given-names: Robert
+      family-names: Jenssen
+  doi: "10.48550/arXiv.2205.08864"
+  journal: "arXiv preprint arXiv:2205.08864"
+  year: 2022

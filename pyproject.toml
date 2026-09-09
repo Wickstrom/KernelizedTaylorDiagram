@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kernelized-taylor-diagram"
+version = "0.1.0"
+description = "The Kernelized Taylor Diagram: visualizing similarities between data populations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Kristoffer Wickstrøm" },
+    { name = "J. Emmanuel Johnson" },
+]
+keywords = ["taylor-diagram", "hsic", "kernel-methods", "visualization"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.8",
+    "scikit-learn>=1.1",
+    "matplotlib>=3.6",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2205.08864"
+Repository = "https://github.com/Wickstrom/KernelizedTaylorDiagram"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "nbformat",
+    "nbclient",
+    "nbconvert",
+    "ipykernel",
+]
+
+[tool.setuptools]
+packages = ["ktd"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
