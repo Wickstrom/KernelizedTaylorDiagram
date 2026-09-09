@@ -25,7 +25,7 @@ version: 0.1.0
 date-released: "2026-09-09"
 preferred-citation:
   title: The Kernelized Taylor Diagram
-  type: article
+  type: conference-paper
   authors:
     - given-names: Kristoffer
       family-names: Wickstrøm
@@ -41,6 +41,13 @@ preferred-citation:
       family-names: Kampffmeyer
     - given-names: Robert
       family-names: Jenssen
-  doi: "10.48550/arXiv.2205.08864"
-  journal: "arXiv preprint arXiv:2205.08864"
+  collection-title: Nordic Artificial Intelligence Research and Development
+  issn: "1865-0937"
+  publisher:
+    name: Springer International Publishing
+  isbn: "978-3-031-17030-0"
+  start: 125
+  end: 131
   year: 2022
+  doi: "10.1007/978-3-031-17030-0_10"
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-17030-0_10"

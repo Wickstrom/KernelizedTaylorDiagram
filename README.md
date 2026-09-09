@@ -7,8 +7,10 @@ graphical framework for visualizing similarities between data populations, intro
 
 > Wickstrøm, K., Johnson, J. E., Løkse, S., Camps-Valls, G., Mikalsen, K. Ø.,
 > Kampffmeyer, M., & Jenssen, R. (2022).
-> *The Kernelized Taylor Diagram*. arXiv:2205.08864.
-> https://arxiv.org/abs/2205.08864
+> *The Kernelized Taylor Diagram*.
+> In *Nordic Artificial Intelligence Research and Development* (pp. 125–131).
+> Springer. https://doi.org/10.1007/978-3-031-17030-0_10
+> (preprint: https://arxiv.org/abs/2205.08864)
 
 The kernelized Taylor diagram relates the **maximum mean discrepancy** and the **kernel
 mean embedding** in a single diagram: each data population is represented by a point whose
@@ -94,15 +96,21 @@ The example notebook is executed as part of CI to ensure it stays reproducible.
 If you use this code, please cite the paper (see also [`CITATION.cff`](CITATION.cff)):
 
 ```bibtex
-@article{wickstrom2022kernelized,
-  title={The Kernelized Taylor Diagram},
-  author={Wickstr{\o}m, Kristoffer and Johnson, J. Emmanuel and L{\o}kse, Sigurd and
-          Camps-Valls, Gustau and Mikalsen, Karl {\O}yvind and Kampffmeyer, Michael and
-          Jenssen, Robert},
-  journal={arXiv preprint arXiv:2205.08864},
-  year={2022}
+@inbook{wickstrom2022kernelized,
+  title     = {The Kernelized Taylor Diagram},
+  author    = {Wickstr{\o}m, Kristoffer and Johnson, J. Emmanuel and L{\o}kse, Sigurd and
+               Camps-Valls, Gustau and Mikalsen, Karl {\O}yvind and Kampffmeyer, Michael and
+               Jenssen, Robert},
+  booktitle = {Nordic Artificial Intelligence Research and Development},
+  series    = {Communications in Computer and Information Science},
+  publisher = {Springer International Publishing},
+  year      = {2022},
+  pages     = {125--131},
+  doi       = {10.1007/978-3-031-17030-0_10}
 }
 ```
+
+A preprint is also available on [arXiv:2205.08864](https://arxiv.org/abs/2205.08864).
 
 ## License
 

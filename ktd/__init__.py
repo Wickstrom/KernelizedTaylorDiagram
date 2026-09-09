@@ -5,8 +5,12 @@ framework for visualizing similarities between data populations:
 
     Wickstrøm, K., Johnson, J. E., Løkse, S., Camps-Valls, G.,
     Mikalsen, K. Ø., Kampffmeyer, M., & Jenssen, R. (2022).
-    "The Kernelized Taylor Diagram." arXiv:2205.08864.
-    https://arxiv.org/abs/2205.08864
+    "The Kernelized Taylor Diagram."
+    In Nordic Artificial Intelligence Research and Development,
+    pp. 125-131. Springer.
+    https://doi.org/10.1007/978-3-031-17030-0_10
+
+Preprint: https://arxiv.org/abs/2205.08864
 
 Parts of this package are adapted from the ``pysim`` package by
 J. Emmanuel Johnson (https://github.com/jejjohnson/pysim, MIT license).

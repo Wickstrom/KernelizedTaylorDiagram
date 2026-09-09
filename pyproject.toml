@@ -32,7 +32,8 @@ dependencies = [
 ]
 
 [project.urls]
-Paper = "https://arxiv.org/abs/2205.08864"
+Paper = "https://doi.org/10.1007/978-3-031-17030-0_10"
+Preprint = "https://arxiv.org/abs/2205.08864"
 Repository = "https://github.com/Wickstrom/KernelizedTaylorDiagram"
 
 [project.optional-dependencies]
